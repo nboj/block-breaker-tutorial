@@ -52,17 +52,18 @@ html {
     text-align: center; 
     margin: 0px auto;
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 900;
     text-shadow: -4px 4px 0px #979797, -8px 8px 0px #141414;   
-    width: 30%;
-    padding: 5px 0px;
-    border-bottom: 8px solid; 
+    font-family: fantasy;
+    width: 35%;
+    padding: 5px 0px; 
 }
 
 .resources { 
     width: 50%;
-    margin: 200px auto 0px auto;
+    margin: 100px auto 0px auto;
     border: 8px solid #343a40;
+    box-shadow: -5px 5px 0px #495057;
     border-top: none;
     color: #f8f9fa;
 }
@@ -70,12 +71,27 @@ html {
 #resources-title {
     text-align: center;
     font-size: 50px;
+    font-family: fantasy;
+    font-weight: 900;
     color: #ef476f;
     background-color: #343a40;
     padding: 10px 0px;
 }
 
-p {
+ul {
+    overflow: hidden;
+}
+
+li {
+    float: left;
     margin: 20px;
     font-size: 20px;
+} 
+
+a {
+    background: #ef476f;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
