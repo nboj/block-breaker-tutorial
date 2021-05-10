@@ -58,3 +58,24 @@ html {
     padding: 5px 0px;
     border-bottom: 8px solid; 
 }
+
+.resources { 
+    width: 50%;
+    margin: 200px auto 0px auto;
+    border: 8px solid #343a40;
+    border-top: none;
+    color: #f8f9fa;
+}
+
+#resources-title {
+    text-align: center;
+    font-size: 50px;
+    color: #ef476f;
+    background-color: #343a40;
+    padding: 10px 0px;
+}
+
+p {
+    margin: 20px;
+    font-size: 20px;
+}
