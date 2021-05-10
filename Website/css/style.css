@@ -59,7 +59,7 @@ html {
     padding: 5px 0px; 
 }
 
-.resources { 
+.box { 
     width: 50%;
     margin: 100px auto 0px auto;
     border: 8px solid #343a40;
@@ -68,7 +68,7 @@ html {
     color: #f8f9fa;
 }
 
-#resources-title {
+#box-title {
     text-align: center;
     font-size: 50px;
     font-family: fantasy;
@@ -82,11 +82,18 @@ ul {
     overflow: hidden;
 }
 
-li {
+.clear-fix {
+    clear: both;
+}
+
+.link {
     float: left;
+} 
+
+li {
     margin: 20px;
     font-size: 20px;
-} 
+}
 
 a {
     background: #ef476f;
@@ -94,4 +101,17 @@ a {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+}
+
+#nothing {
+    padding: 20px;
+}
+
+.description {
+    margin: 5px 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
 }
