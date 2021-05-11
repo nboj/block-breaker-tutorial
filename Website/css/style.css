@@ -72,7 +72,7 @@ html {
     border: 8px solid #343a40;
     box-shadow: -5px 5px 0px #495057;
     border-top: none;
-    color: #f8f9fa;
+    color: #f8f9fa; 
 }
 
 #box-title {
@@ -140,9 +140,8 @@ h2 {
  
 video {
     border-radius: 10px;
-    border: 2px solid;
-    margin-left: 5%;
-    margin-right: auto;
+    border: 5px solid ;
+    margin: 2% 5% 5% 5%
 }
 
 h3 {
