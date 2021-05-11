@@ -105,6 +105,7 @@ a {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+    text-decoration-line: underline;
 }
 
 #nothing {
