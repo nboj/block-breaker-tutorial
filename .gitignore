@@ -11,6 +11,9 @@
 /[Mm]emoryCaptures/
 Library
 out
+Logs
+
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -57,5 +60,4 @@ sysinfo.txt
 *.unitypackage
 
 # Crashlytics generated file
-crashlytics-build.properties
-
+crashlytics-build.properties 
