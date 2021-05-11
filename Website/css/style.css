@@ -179,6 +179,6 @@ button:active {
     background-color: azure;
     width: 50%;
     border-radius: 10px; 
-    color: #073b4c;
-    margin-left: 20px; 
+    color: #073b4c; 
+    margin: auto;
 }
