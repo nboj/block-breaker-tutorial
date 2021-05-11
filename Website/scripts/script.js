@@ -11,3 +11,11 @@ function copyToClipboard(textID, buttonID) {
     }
     $("#" + buttonID)[0].innerHTML = "Copied"; 
 } 
+
+function play() {
+    console.log("played");
+    console.log("played");
+    console.log("played");
+    console.log("played");
+    $(this)[0].play();
+}
