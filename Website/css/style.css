@@ -102,7 +102,7 @@ li {
     font-size: 20px;
 }  
 
-#image {
+.image {
     margin-right: 20px;
 }
 
@@ -138,3 +138,37 @@ h2 {
     margin-left: 20px;
 }
  
+video {
+    border-radius: 10px;
+    border: 2px solid;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #d94165;
+}
+
+#input1 {
+    margin-top: 0px; 
+}
+
+button { 
+    background: #ffd166;
+    border-radius: 2px;
+    border: none;
+    opacity: 0.8;
+    color: #073b4c;
+    transition: 0.02s;
+    cursor: pointer;
+} 
+
+button:hover { 
+    opacity: 1;
+}  
+
+button:active {
+    opacity: 0.5;
+}

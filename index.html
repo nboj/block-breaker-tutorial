@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="Website/css/style.css"></link>
         <script src="Website/scripts/script.js"></script>
         <title>Block Breaker</title>
         <link rel="icon" href="Website/Images/dolphin.png">
     </head>
     <body>
-        <h1 id="title" onmouseover="display()">Block Breaker</h1>
+        <h1 id="title">Block Breaker</h1>
         <div class="box">
             <h2 id="box-title">Information</h2>
             <ul>
@@ -19,8 +20,8 @@
                 </ul>
                 <li><h2>What will be the end result?</h2></li>
             </ul>
-            <video width="100%" controls>
-                <source src="Website/Media/2021-05-11 15-46-22.mov" type="video/mov">
+            <video width="90%" autoplay loop="true">
+                <source src="Website/Media/Block Breaker Demo.mov" type="video/mp4">
                 Your browser doesn't support this type of video
             </vieo>
         </div>
@@ -30,9 +31,16 @@
                 <li class="link"><a href="https://github.com/nboj/block-breaker-tutorial" target="_blank">GitHub</a></li>
                 <li class="link"><p>Use this link to access the source code for the game.</p></li> 
                 <li class="link clear-fix"><a href="https://docs.unity3d.com/Manual/Unity2D.html" target="_blank">Unity Docs</a></li>
-                <li class="link"><p>Use this link to look at all the methods that Unity has for us to utilize.</p></li> 
+                <li class="link"><p>Use this link to look at all the methods that Unity has for us to utilize.</p></li>  
+                <li class="link clear-fix"><a href="https://ohconnect.zoom.us/j/78189361888?pwd=dVljMDhiU1pSOVVKZXN3RXN2Z0VHQT09" target="_blank">Zoom Link</a></li>
+                <li class="link"><p>Use this link to join the zoom call in class</p></li>
+                <ul class="clear-fix">
+                    <li class="link"><h3>Meeting ID: </h3></li> 
+                    <li class="link clear-fix" id="input1">781 8936 1888</li>
+                    <button class="link" id="button1" onclick="copyToClipboard('input1', 'button1')">Copy</button>
+                </ul>
                 <li class="description clear-fix"><p></p>Everything that you will need will be here. (GitHub)</p></li>
-                <li id="image"><img src="Website/Images/github-website.PNG"></li>
+                <li class="image"><img src="Website/Images/github-website.PNG"></li>
             </ul>
         </div>
     </body>
