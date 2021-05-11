@@ -10,12 +10,4 @@ function copyToClipboard(textID, buttonID) {
         buttons[i].innerHTML = "Copy";
     }
     $("#" + buttonID)[0].innerHTML = "Copied"; 
-} 
-
-function play() {
-    console.log("played");
-    console.log("played");
-    console.log("played");
-    console.log("played");
-    $(this)[0].play();
-}
+}  
