@@ -111,8 +111,8 @@ a {
     padding: 20px;
 }
 
-.description {
-    margin: 5px 20px;
+.description { 
+    padding-top: 50px;
 }
 
 img {
