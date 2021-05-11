@@ -7,7 +7,7 @@ function copyToClipboard(textID, buttonID) {
     window.getSelection().removeAllRanges();  
     var buttons = $("button");
     for (var i = 0; i < buttons.length; i++) {
-        buttons[i].innerHTML = "Copyy";
+        buttons[i].innerHTML = "Copy";
     }
-    $("#button1").innerHTML = "Copied"; 
+    $("#" + buttonID)[0].innerHTML = "Copied"; 
 } 

@@ -154,6 +154,9 @@ h3 {
 #input1 {
     margin-top: 0px; 
 }
+#input2 {
+    margin-top: 0px; 
+}
 
 button { 
     background: #ffd166;
@@ -171,4 +174,12 @@ button:hover {
 
 button:active {
     opacity: 0.5;
+} 
+
+.make-box { 
+    background-color: azure;
+    width: 50%;
+    border-radius: 10px; 
+    color: #073b4c;
+    margin-left: 20px; 
 }
