@@ -12,6 +12,7 @@
 Library
 out
 Logs
+Temp
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored

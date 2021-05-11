@@ -126,3 +126,15 @@ img {
     width: 100%;
     border-radius: 10px;
 }
+
+h2 {
+    font-size: 30px;
+    color: #d94165;
+    font-weight: 800;
+}
+
+.styled-ul {
+    list-style: square;
+    margin-left: 20px;
+}
+ 
