@@ -1,6 +1,6 @@
-$(window).on('beforeunload', function() {
-    $(window).scrollTop(0);
-});
+// $(window).on('beforeunload', function() {
+//     $(window).scrollTop(0);
+// });
 
 function copyToClipboard(textID, buttonID) {
     var r = document.createRange();
