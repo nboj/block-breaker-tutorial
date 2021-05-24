@@ -82,7 +82,7 @@ html {
 
 @keyframes boxAnim {
     0% {
-        margin-top: 40px;
+        transform: translateY(-50px);
         opacity: 50%;
     } 
 } 
@@ -202,6 +202,6 @@ a:hover {
 
 @keyframes titleAnim {
     0% { 
-        margin-top: -50px;
+        transform: translateY(-100px);
     }  
 }
