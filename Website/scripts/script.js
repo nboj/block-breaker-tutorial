@@ -1,7 +1,3 @@
-// $(window).on('beforeunload', function() {
-//     $(window).scrollTop(0);
-// });
-
 function copyToClipboard(textID, buttonID) {
     var r = document.createRange();
     r.selectNode(document.getElementById(textID));
