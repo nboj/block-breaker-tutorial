@@ -99,7 +99,7 @@ ul {
 
 li {
     margin: 20px 5px 20px 20px;
-    font-size: 20px;
+    font-size: 20px; 
 }  
 
 .image {
@@ -112,6 +112,7 @@ a {
     border-radius: 5px;
     text-decoration: none;
     color: white; 
+    transition: all 200ms ease-in-out;
 }
 
 #nothing {
@@ -181,4 +182,8 @@ button:active {
     border-radius: 10px; 
     color: #073b4c; 
     margin: auto;
+}
+
+a:hover {
+    font-size: 1.2em; 
 }
