@@ -64,6 +64,8 @@ html {
     font-family: fantasy;
     width: 35%;
     padding: 5px 0px; 
+    animation-name: titleAnim;
+    animation-duration: 800ms;
 }
 
 .box { 
@@ -73,6 +75,16 @@ html {
     box-shadow: -5px 5px 0px #495057;
     border-top: none;
     color: #f8f9fa; 
+    animation-name: boxAnim;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes boxAnim {
+    0% {
+        margin-top: 20px;
+        opacity: 0;
+    } 
 }
 
 #box-title {
@@ -186,4 +198,10 @@ button:active {
 
 a:hover {
     font-size: 1.2em; 
+}
+
+@keyframes titleAnim {
+    0% { 
+        margin-top: -50px;
+    }  
 }
