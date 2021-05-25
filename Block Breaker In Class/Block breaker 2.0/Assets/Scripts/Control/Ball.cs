@@ -27,7 +27,7 @@ public class Ball : MonoBehaviour
             else 
             {
                 Vector3 position = paddle.transform.position;
-                transform.position = new Vector3(position.x, transform.position.y, 0);
+                transform.position = new Vector3(Mathf.Clamp(position.x, -6.5f, 6.5f), transform.position.y, 0);
             }
         }
     }
