@@ -15,6 +15,6 @@ public class Paddle : MonoBehaviour
     void Update()
     {
         float xposition = Input.GetAxisRaw("Horizontal") * Time.deltaTime * moveSpeed;   
-        transform.Translate(new Vector3(xposition, 0, 0)); 
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x + xposition, -6.5f, 6.5f), transform.position.y, 0);
     }
 }   
