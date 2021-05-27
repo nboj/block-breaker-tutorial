@@ -5,6 +5,10 @@ using UnityEngine;
 public class Level : MonoBehaviour
 {
     [SerializeField] int blocks = 0;
+    private GameController gameController;
+    private void Start() {
+        gameController = FindObjectOfType<GameController>();
+    }
     public int Blocks {
         get {
             return blocks;
@@ -15,8 +19,8 @@ public class Level : MonoBehaviour
     } 
     
     public void CheckBlockCount() {
-        if (blocks <= 0) {
-            // do something
+        if (blocks <= 0) { 
+            gameController.LoadNextLevel();
         }
     }
 }

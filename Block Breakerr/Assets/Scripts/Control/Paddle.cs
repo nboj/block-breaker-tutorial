@@ -7,8 +7,7 @@ public class Paddle : MonoBehaviour {
     [SerializeField] bool autoPlay = false;
     [SerializeField] Ball ball; 
     private Animator animator;
-    private void Start() {
-        
+    private void Start() { 
         animator = GetComponent<Animator>();
     }
     private void Update() {

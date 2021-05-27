@@ -10,6 +10,8 @@ public class Block : MonoBehaviour
         level.Blocks++;
     }
     private void OnCollisionEnter2D(Collision2D collision) {
+        level.Blocks--;
+        level.CheckBlockCount();
         Destroy(gameObject);
     }
 }
