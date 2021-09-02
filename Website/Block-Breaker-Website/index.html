@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="Website/css/style.css"></link>
+        <script src="Website/scripts/script.js"></script>
+        <title>Block Breaker</title>
+        <link rel="icon" href="Website/Images/dolphin.png">
+    </head>
+    <body>
+        <h1 id="title">Block Breaker</h1>
+        <div class="box">
+            <h2 id="box-title">Information</h2>
+            <ul>
+                <li><h2>What will we be making?</h2></li>
+                <ul class="styled-ul">
+                    <li>2D - block breaker comes from an arcade game</li>
+                    <li>Action - player moves the ball around with the mouse, trying to block the ball from losing</li>
+                    <li><p>This game is a version of the game Breakout which is a very old arcade game ( <a href="https://en.wikipedia.org/wiki/Breakout_(video_game)" target="_blank">Breakout Wiki</a> )</p></li>
+                </ul>
+                <li><h2>What will be the end result?</h2></li>
+            </ul>
+            <video width="90%" loop autoplay muted>
+                <source src="Website/Media/Block Breaker Demo.mov" type="video/mp4">
+                Your browser doesn't support this type of video
+            </vieo>
+        </div>
+        <div class="box">
+            <h2 id="box-title">Resources</h2>
+            <ul>
+                <li class="link"><a href="https://github.com/nboj/block-breaker-tutorial" target="_blank">GitHub</a></li>
+                <li class="link"><p>&#8594; Use this link to access the source code for the game.</p></li> 
+                <li class="link clear-fix"><a href="https://docs.unity3d.com/Manual/Unity2D.html" target="_blank">Unity Docs</a></li>
+                <li class="link"><p style="margin-bottom: 10px">&#8594; Use this link to look at all the methods that Unity has for us to utilize.</p></li>   
+                <li class="clear-fix" align="center"><h2>Zoom</h2></li>
+                <ul class="make-box"> 
+                    <a href="https://ohconnect.zoom.us/j/78189361888?pwd=dVljMDhiU1pSOVVKZXN3RXN2Z0VHQT09" target="_blank" style="float: right; font-size: 22px; margin-right: 20px; margin-top: 20px; font-weight: 700;">Zoom Link</a>
+                    <li class="link"><h3>Meeting ID:</h3></li> 
+                    <li class="link clear-fix" id="input1">781 8936 1888</li>
+                    <button class="link" id="button1" onclick="copyToClipboard('input1', 'button1')">Copy</button> 
+                    <li class="link clear-fix"><h3>Passcode:</h3></li> 
+                    <li class="link clear-fix" id="input2">7hHzTS</li>
+                    <button class="link" id="button2" onclick="copyToClipboard('input2', 'button2')">Copy</button> 
+                </ul>
+                <li class="description clear-fix"><h3>Everything that you will need will be here. (GitHub)</h3></li>
+                <li class="image"><img src="Website/Images/github-website.PNG"></li>
+            </ul>
+        </div>
+    </body>
+    <script>
+        $("html, body").delay(100).animate({scrollTop: 0});
+    </script>
+</html>
