@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.61154520.chunk.css",
+    "main.css": "/static/css/main.b5efbf23.chunk.css",
     "main.js": "/static/js/main.2b7963f0.chunk.js",
     "main.js.map": "/static/js/main.2b7963f0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.31dc8ee8.js",
@@ -8,14 +8,14 @@
     "static/js/2.d3f8e4cd.chunk.js": "/static/js/2.d3f8e4cd.chunk.js",
     "static/js/2.d3f8e4cd.chunk.js.map": "/static/js/2.d3f8e4cd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.61154520.chunk.css.map": "/static/css/main.61154520.chunk.css.map",
+    "static/css/main.b5efbf23.chunk.css.map": "/static/css/main.b5efbf23.chunk.css.map",
     "static/js/2.d3f8e4cd.chunk.js.LICENSE.txt": "/static/js/2.d3f8e4cd.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/PhotoMyrtleBeach.com-7.d1b394eb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.31dc8ee8.js",
     "static/js/2.d3f8e4cd.chunk.js",
-    "static/css/main.61154520.chunk.css",
+    "static/css/main.b5efbf23.chunk.css",
     "static/js/main.2b7963f0.chunk.js"
   ]
 }
