@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.74e9e850.chunk.css",
-    "main.js": "/static/js/main.b24c40ef.chunk.js",
-    "main.js.map": "/static/js/main.b24c40ef.chunk.js.map",
+    "main.js": "/static/js/main.6779ba70.chunk.js",
+    "main.js.map": "/static/js/main.6779ba70.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.31dc8ee8.js",
     "runtime-main.js.map": "/static/js/runtime-main.31dc8ee8.js.map",
-    "static/js/2.156d7649.chunk.js": "/static/js/2.156d7649.chunk.js",
-    "static/js/2.156d7649.chunk.js.map": "/static/js/2.156d7649.chunk.js.map",
+    "static/js/2.98aa471b.chunk.js": "/static/js/2.98aa471b.chunk.js",
+    "static/js/2.98aa471b.chunk.js.map": "/static/js/2.98aa471b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.74e9e850.chunk.css.map": "/static/css/main.74e9e850.chunk.css.map",
-    "static/js/2.156d7649.chunk.js.LICENSE.txt": "/static/js/2.156d7649.chunk.js.LICENSE.txt",
+    "static/js/2.98aa471b.chunk.js.LICENSE.txt": "/static/js/2.98aa471b.chunk.js.LICENSE.txt",
     "static/media/web.css": "/static/media/BetterSplash.f813f976.png",
     "static/media/App.css": "/static/media/PhotoMyrtleBeach.com-7.d1b394eb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.31dc8ee8.js",
-    "static/js/2.156d7649.chunk.js",
+    "static/js/2.98aa471b.chunk.js",
     "static/css/main.74e9e850.chunk.css",
-    "static/js/main.b24c40ef.chunk.js"
+    "static/js/main.6779ba70.chunk.js"
   ]
 }
